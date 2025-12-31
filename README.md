@@ -46,6 +46,12 @@ I'm a **Senior Full Stack Architect** & **Engineering Lead** with 20+ years of e
 
 <a name="traditional-chinese-version"></a>
 
+❀ 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰 ❀
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=goviafang&theme=dark)](https://git.io/streak-stats)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=goviafang&show_icons=true&theme=dark)
+
 ### Hi there 👋
 
 我是 **資深全端架構師** 與 **工程團隊管理者**，擁有 20 年以上經驗。我專注於將舊有單體系統轉型為高效能微服務，以及建構可擴展的系統平台。
