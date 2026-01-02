@@ -44,8 +44,6 @@ I'm a **Senior Full Stack Architect** & **Engineering Lead** with 20+ years of e
 
 ❀ 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰 ❀
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=goviafang&show_icons=true&count_private=true)
-
 <a name="traditional-chinese-version"></a>
 
 ### Hi there 👋
