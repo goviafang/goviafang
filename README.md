@@ -1,82 +1,28 @@
-## ⛩️ Language / 語言切換
+Backend engineer and architect, 15+ years in PHP. I run Amoozie, my own software studio.
 
-[**English Version (英文版)**](#english-version) | [**中文版本 (Traditional Chinese Version)**](#traditional-chinese-version)
+## What I'm working on
 
-❀ 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰 ❀
+- **RECO Pass**, a study platform for Ontario's RECO real estate licensing exam. I'm the only engineer on it: Laravel API, Vue and Vite on the client, MeiliSearch for search, Sentry for errors. I also provision and maintain the GCP Compute Engine instances it runs on, including the IAM roles and firewall rules. Releases go out most days.
+- The question bank comes out of an LLM pipeline I built. Source material is curated by hand, the model drafts questions, answers and explanations, then a human expert reviews everything before publication. Licensing exam content has to be correct, so every generated item gets read by a person first. The pipeline runs offline and users never touch it.
+- A Claude Code agent-skills toolchain, used in every repository at Amoozie. I wrote the standards that go with it: anything a model writes goes through a named human reviewer before it can merge, skills live in version control and get reviewed like code, and output that can't be checked against a test or a spec doesn't go in.
 
-<a name="english-version"></a>
+## Before that
 
-### Hi there 👋
+For eight years I ran the real estate platform at 51.CA, Canada's largest Chinese-language media company, leading a team of 15 across backend, frontend, mobile, server operations and QA. The MLS feeds ran around the clock and brought in millions of listing records a day, and the public site still had to stay fast while all of that was writing. So the read path went onto MySQL read/write splitting with a Redis cache in front of it, and ingestion and image processing moved onto Redis queues. Later we broke the content services into smaller services talking over internal REST APIs, with the request and response classes kept in shared Composer packages so each contract was versioned in one place. I also built the agent product: a WordPress site per agent fed from the shared listing pool, with buyer lead routing on top of it. On the process side I replaced FTP deployment with a Git branching workflow, mandatory code review and automated deploys, and moved core services off VPS onto AWS with Docker.
 
-I'm a **Senior Full Stack Architect** & **Engineering Lead** with 20+ years of experience. I specialize in transforming legacy monoliths into high-performance microservices and building scalable platforms.
+Earlier: a multi-tenant e-commerce platform at Wabow, and before that payment collection and financial reconciliation at ELTA, a national OTT operator in Taiwan, where I also delivered the broadcast technology for the Olympics and the FIFA World Cup.
 
-- 🔭 I’m currently working on **EdTech Platform Engineering** at **Amoozie**, building comprehensive online learning solutions.
-- 🌱 I’m currently diving deep into **Laravel 12**, **Vue.js 3**, and **CQRS** architectures.
-- 🤖 Implemented **AI Automation workflows** and data pipelines for **LLM Fine-tuning** to enhance personalized learning content.
-- 🚀 Embraced **Vibe Coding** paradigms, leveraging AI-assisted development to accelerate prototyping and feature delivery.
-- 👯 I’m looking to collaborate on open source PHP/Laravel projects or anything involving high-concurrency systems.
-- 💬 Ask me about **AI Automation**, **LLM Fine-tuning**, **Vibe Coding**, **DDD**, **CQRS** or how to optimize your **AWS** infrastructure.
-- ⚡ Fun fact: I once processed 4.8 million daily real estate updates using Elasticsearch! 🏠
+## Skills
 
-### 🛠 Tech Stack
+- **Backend:** PHP · Laravel · Python · REST API design · MySQL (read/write splitting, query optimization, schema design) · Redis (queues, caching)
+- **Architecture:** microservices · shared contract packages · multi-tenant and white-label platforms · third-party data integration (MLS)
+- **Full stack:** TypeScript · Vue.js · Flutter / Dart · Astro · Vitest
+- **Infrastructure:** GCP (Compute Engine, IAM, firewall rules) · AWS · Docker · Nginx · Linux · Cloudflare · Supabase · MeiliSearch · Elasticsearch · Sentry
+- **AI:** LLM pipelines in production with a human review step · Claude Code agent skills · team standards for AI-assisted development
+- **Practice:** technical leadership (15 engineers) · CI/CD · code review · mentoring · remote async work
 
-**Backend**
-![PHP](https://img.shields.io/badge/php-%231E50A2.svg?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23EA5506.svg?style=flat&logo=laravel&logoColor=white)
-![Swoole](https://img.shields.io/badge/swoole-%23000000.svg?style=flat&logo=swoole&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0.svg?style=flat&logo=python&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571.svg?style=flat&logo=elasticsearch&logoColor=white)
+## Contact
 
-**Frontend**
-![Vue.js](https://img.shields.io/badge/vuejs-%235B7E55.svg?style=flat&logo=vuedotjs&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%235B7E55.svg?style=flat&logo=tailwind-css&logoColor=white)
+Working languages: English · Mandarin (native)
 
-**Infrastructure**
-![AWS](https://img.shields.io/badge/AWS-%23F8B500.svg?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white)
-
-❀ 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰 ❀
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%231E50A2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/goviafang/)
-
-❀ 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰 ❀
-
-<a name="traditional-chinese-version"></a>
-
-### Hi there 👋
-
-我是 **資深全端架構師** 與 **工程團隊管理者**，擁有 20 年以上經驗。我專注於將舊有單體系統轉型為高效能微服務，以及建構可擴展的系統平台。
-
-- 🔭 我目前在 **Amoozie** 擔任 **Software Architect** 職位，致力於打造全方位的線上學習解決方案。
-- 🤖 實作 **AI 自動化工作流程** 與 **LLM 微調 (Fine-tuning)** 數據管道，以強化個人化學習內容。
-- 🚀 擁抱 **Vibe Coding** 開發範式，利用 AI 輔助開發加速原型設計與功能交付。
-- 👯 我希望能參與開源 PHP/Laravel 專案，或是任何與高併發系統相關的協作。
-- 💬 歡迎與我討論 **AI**、**DDD**、**CQRS** 或如何優化您的 **AWS** 基礎設施。
-- ⚡ 有趣的小事：我曾經透過 Elasticsearch 每日處理高達 480 萬筆房地產數據更新！🏠
-
-### 🛠 技術堆疊 (Tech Stack)
-
-**Backend**
-![PHP](https://img.shields.io/badge/php-%231E50A2.svg?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23EA5506.svg?style=flat&logo=laravel&logoColor=white)
-![Swoole](https://img.shields.io/badge/swoole-%23000000.svg?style=flat&logo=swoole&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0.svg?style=flat&logo=python&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571.svg?style=flat&logo=elasticsearch&logoColor=white)
-
-**Frontend**
-![Vue.js](https://img.shields.io/badge/vuejs-%235B7E55.svg?style=flat&logo=vuedotjs&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%235B7E55.svg?style=flat&logo=tailwind-css&logoColor=white)
-
-**Infrastructure**
-![AWS](https://img.shields.io/badge/AWS-%23F8B500.svg?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white)
-
-❀ 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰 ❀
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%231E50A2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/goviafang/)
+[LinkedIn](https://www.linkedin.com/in/goviafang/)
